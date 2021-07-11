@@ -1,0 +1,44 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      a:link { color: lightgrey; }
+      a:visited { color: white; }
+      a:hover { color: grey; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFF">
+    <mj-section padding-bottom="20px" padding-top="20px">
+      <mj-column width="100%">
+        <mj-image src="{{ asset('images/logo.png') }}" alt="" align="center" border="none" width="300px" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#356cc7" padding-bottom="20px" padding-top="0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#FFF" font-size="20px" font-family="Helvetica" padding-left="25px" padding-right="25px" padding-top="28px">Formation <strong>{{ $record->title }}</strong>
+        </mj-text>
+        <mj-text align="center" color="#FFF" font-size="20px" font-family="Helvetica" padding-left="25px" padding-right="25px">Bonjour {{ $user->name }}
+        </mj-text>
+        <mj-text align="center" color="#FFF" font-size="20px" font-family="Helvetica" padding-left="25px" padding-right="25px">
+        Merci de vous inscrire à une formation
+        </mj-text>
+      </mj-column>
+    </mj-section> 
+
+    <mj-section background-color="#FFF" padding-bottom="0px" padding-top="0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#555" font-size="15px" font-family="Helvetica" padding-left="25px" padding-right="25px" padding-bottom="20px" padding-top="20px">{{ $school->name }}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#36c" padding-bottom="0px" padding-top="0">
+      <mj-column width="100%">
+      <mj-text color="#ddd"align="center"  font-size="18px" font-family="Helvetica" padding-left="25px" padding-right="25px" padding-top="20px">
+        Conditions générales d'utilisation       
+        </mj-text>
+        <mj-text align="justify" color="#ddd" font-size="12px" font-family="Helvetica" padding-left="25px" padding-right="25px" padding-bottom="20px" >
+        {!! $page->text !!}        
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

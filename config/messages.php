@@ -1,0 +1,25 @@
+<?php
+	
+	return[
+		'schoolupdated' => "Les informations de l'école ont bien été mises à jour.",
+		'pageupdated' => 'La page a bien été mise à jour.',
+    	'pagecreated' => 'La page a bien été créée.',
+    	'coursecreated' => 'La formation a bien été créé.',
+	    'courseupdated' => 'La formation a bien été modifié.',
+	    'coursedestroy' => 'La formation a bien été supprimé.',
+	    'categorycreated' => 'La Categorie a bien été créé.',
+	    'categoryupdated' => 'La Categorie a bien été modifié.',
+	    'categorydestroy' => 'La Categorie a bien été supprimé.',
+	    'lessoncreated' => 'La leçon a bien été créé.',
+	    'lessonupdated' => 'La leçon a bien été modifié.',
+	    'lessondestroy' => 'La leçon a bien été supprimé.',
+	    'maintenance' => 'La boutique est en mode maintenance.',
+	    'maintenanceupdated' => 'Le mode maintenance a bien été mis à jour.',
+	    'cacheupdated' => 'Le cache a bien été mis à jour.',
+	    'rolecreated' => 'Le role a bien été créé.',
+	    'roleupdated' => 'Le role a bien été modifié.',
+	    'roledestroy' => 'Le role a bien été supprimé.',
+	    'permissioncreated' => 'La permission a bien été créé.',
+	    'permissionupdated' => 'La permission a bien été modifié.',
+	    'permissiondestroy' => 'La permission a bien été supprimé.',
+	];
